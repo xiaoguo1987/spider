@@ -140,7 +140,7 @@ public class janshuTestcase {
 	 */
 	@Test
 	public void deleteBookDir( )  {
-		NovelSpiderUtil.deleteFile("D:/1_1/jianshu.com/");
+		NovelSpiderUtil.deleteFile("C:/Users/xiaoguo/Documents/githubStudent/xiaoshuo-java/jianshu.com/");
 
 	}	
 	
@@ -149,7 +149,7 @@ public class janshuTestcase {
 	 */
 	@Test
 	public void  testmultDir2( )  {
-		String path = "D:/1_1/jianshu.com/";
+		String path = "C:/Users/xiaoguo/Documents/githubStudent/xiaoshuo-java/1_1/jianshu.com/";
 		File file  = new File(path);
 		String[] files =  file.list(new FilenameFilter() {
 			@Override

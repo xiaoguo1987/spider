@@ -112,9 +112,19 @@
 		<chapter-detail-content-selector>.show-content-free</chapter-detail-content-selector>
 		<likes-count-selector>.meta span</likes-count-selector>	
 		<userinfo-selector>.meta-block p</userinfo-selector>	
-	</site> 
-	
-	
-	
-	
+	</site>
+
+	<site>
+		<title>笔趣阁</title>
+		<charset>GBK</charset>
+		<url>https://www.biquge.cm/</url>
+		<book-name>#info h1</book-name>
+		<chapter-list-selector>#list dd a</chapter-list-selector>
+		<chapter-detail-title-selector>.bookname h1</chapter-detail-title-selector>
+		<chapter-detail-content-selector>#content</chapter-detail-content-selector>
+		<chapter-detail-prev-selector>#pager_prev</chapter-detail-prev-selector>
+		<chapter-detail-next-selector>#pager_next</chapter-detail-next-selector>
+	</site>
+
+
 </sites>

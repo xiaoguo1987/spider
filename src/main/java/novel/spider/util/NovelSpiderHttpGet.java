@@ -28,7 +28,11 @@ public class NovelSpiderHttpGet extends HttpGet {
 				.setConnectTimeout(100000)	//设置连接服务器的超时时间
 				.setConnectionRequestTimeout(100000)	//设置从服务器读取数据的超时时间
 				.build());
-		this.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36");	//设置请求头
+		//this.setHeader("User-Agent", "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36");	//设置请求头
+		//this.setHeader("User-Agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.119 Safari/537.36");	//设置请求头
+
+
+
 	}
 
 }

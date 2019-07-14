@@ -68,8 +68,10 @@ public class Testcase {
 	public void testDownload1()  {
 		INovelDownload download = new NovelDownload(); 
 		Configuration config = new Configuration();
-		String path ="D:/1_1";
-		String url= "https://www.biquke.com/bq/43/43961/";  
+		String path ="C:/Users/xiaoguo/Documents/githubStudent/xiaoshuo-java/";
+		//String url= "https://www.biquke.com/bq/43/43961/";
+		String url= "http://www.biquge.cm/11/11856/";
+
 		config.setPath(path);
 		config.setSize(40);
 		config.setTryTimes(3);
@@ -86,7 +88,7 @@ public class Testcase {
 	public void batchDownload1() throws InterruptedException  {
 		INovelDownload download = new NovelDownload(); 
 		Configuration config = new Configuration();
-		String path ="D:/1_1";
+		String path ="C:/Users/xiaoguo/Documents/githubStudent/xiaoshuo-java/";
 		config.setPath(path);
 		config.setSize(20);
 		int booknum = 20;

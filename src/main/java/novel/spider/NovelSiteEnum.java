@@ -13,7 +13,8 @@ public enum NovelSiteEnum {
 	Bxwx(4, "bxwx8.org"),
 	FengWu(6, "qiuwu.net"),
 	NNSF(7, "kanunu8.com"),
-	JANSHU(8, "jianshu.com");
+	JANSHU(8, "jianshu.com"),
+	BiQuGeMe(9, "biquge.cm");
 	private int id;
 	private String url;
 	private NovelSiteEnum(int id, String url) {

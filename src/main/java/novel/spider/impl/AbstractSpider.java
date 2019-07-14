@@ -39,7 +39,8 @@ public abstract class AbstractSpider {
 			CloseableHttpClient httpClient = createSSLClientDefault(url);
 			 CloseableHttpResponse httpResponse = httpClient.execute(new NovelSpiderHttpGet(url));
 			String result = EntityUtils.toString(httpResponse.getEntity(), NovelSpiderUtil.getContext(NovelSiteEnum.getEnumByUrl(url)).get("charset"));
-			 httpClient.close();
+			//String result = EntityUtils.toString(httpResponse.getEntity(), "UTF-8");
+			httpClient.close();
 			return result;
 		} catch (Exception e) {
 			throw new RuntimeException(e);
